@@ -16,6 +16,7 @@ Brennan Stehling
 * Friend of designers
 * Admirer of User Experience
 
+![original 110% filtered](Xcode.png)
 ![right 90%](BrennanStehling.jpg)
 
 ---
@@ -36,7 +37,7 @@ Brennan Stehling
 * Developers want to write code
 * Developers really should not do design
 
-![original 120% filtered](People.jpg)
+![original 200% filtered](People.jpg)
 
 ---
 
@@ -70,8 +71,9 @@ Brennan Stehling
 * Try the app in the iOS Simulator
 * Tweak a screen or change some fonts
 * Reposition some views
+* Change the entire feel of the app
 
-![original 180% filtered](Iterate.jpg)
+![original 320% filtered](Iterate.jpg)
 
 ---
 
@@ -104,11 +106,12 @@ Brennan Stehling
 
 ---
 
-### Back to PaintCode
+### More about PaintCode
 
 * It works with Sketch
 * It works with PhotoShop
-* You can sync the files on GitHub
+* Sync the files on GitHub
+* Keep using the tools you know and love
 
 ![original 110% filtered](Sketch.png)
 
@@ -119,6 +122,9 @@ Brennan Stehling
 * See [Training Videos](http://sstools.co/csfsb2016)
 * Get [Kitten Book](https://github.com/brennanMKE/KittenBook)
 * Try it yourself
+* Can I get a volunteer?!
+
+![original 110% filtered](Sketch.png)
 
 --- 
 
@@ -131,5 +137,7 @@ Brennan Stehling
 ### Brennan Stehling
 #### github.com/brennanMKE
 #### www.smallsharptools.com
+#### Videos: http://sstools.co/csfsb2016
+#### https://github.com/brennanMKE/KittenBook
 
 ![original 140%](Thanks.gif)
