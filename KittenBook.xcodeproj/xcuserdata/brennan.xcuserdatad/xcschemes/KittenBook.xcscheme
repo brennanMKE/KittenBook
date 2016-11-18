@@ -38,6 +38,16 @@
                ReferencedContainer = "container:KittenBook.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "267CE95C1DDE4F850070FF5F"
+               BuildableName = "KittenBookKitTests.xctest"
+               BlueprintName = "KittenBookKitTests"
+               ReferencedContainer = "container:KittenBook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -71,6 +81,23 @@
             ReferencedContainer = "container:KittenBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "LoginOverrideEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "Username"
+            value = "becky"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "Password"
+            value = "goodhair"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

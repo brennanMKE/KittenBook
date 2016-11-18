@@ -8,11 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		267CE9111DDE499C0070FF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9101DDE499C0070FF5F /* AppDelegate.swift */; };
-		267CE9131DDE499C0070FF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9121DDE499C0070FF5F /* ViewController.swift */; };
 		267CE9161DDE499C0070FF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9141DDE499C0070FF5F /* Main.storyboard */; };
 		267CE9181DDE499C0070FF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9171DDE499C0070FF5F /* Assets.xcassets */; };
 		267CE91B1DDE499C0070FF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9191DDE499C0070FF5F /* LaunchScreen.storyboard */; };
 		267CE9261DDE499D0070FF5F /* KittenBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9251DDE499D0070FF5F /* KittenBookTests.swift */; };
+		267CE9321DDE4A260070FF5F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9311DDE4A260070FF5F /* BaseViewController.swift */; };
+		267CE9341DDE4A390070FF5F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9331DDE4A390070FF5F /* IntroViewController.swift */; };
+		267CE9361DDE4A450070FF5F /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9351DDE4A450070FF5F /* RegistrationViewController.swift */; };
+		267CE9381DDE4A510070FF5F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9371DDE4A510070FF5F /* LogInViewController.swift */; };
+		267CE93A1DDE4A5D0070FF5F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9391DDE4A5D0070FF5F /* PostViewController.swift */; };
+		267CE93C1DDE4A680070FF5F /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE93B1DDE4A680070FF5F /* ListingViewController.swift */; };
+		267CE93E1DDE4AF40070FF5F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE93D1DDE4AF40070FF5F /* DetailViewController.swift */; };
+		267CE9401DDE4B430070FF5F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE93F1DDE4B420070FF5F /* RootViewController.swift */; };
+		267CE9481DDE4DCF0070FF5F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9421DDE4DCF0070FF5F /* 1.jpg */; };
+		267CE9491DDE4DCF0070FF5F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9431DDE4DCF0070FF5F /* 2.jpg */; };
+		267CE94A1DDE4DCF0070FF5F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9441DDE4DCF0070FF5F /* 3.jpg */; };
+		267CE94B1DDE4DCF0070FF5F /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9451DDE4DCF0070FF5F /* 4.jpg */; };
+		267CE94C1DDE4DCF0070FF5F /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9461DDE4DCF0070FF5F /* 5.jpg */; };
+		267CE94D1DDE4DCF0070FF5F /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9471DDE4DCF0070FF5F /* 6.jpg */; };
+		267CE94F1DDE4E0F0070FF5F /* kittens.json in Resources */ = {isa = PBXBuildFile; fileRef = 267CE94E1DDE4E0F0070FF5F /* kittens.json */; };
+		267CE95E1DDE4F860070FF5F /* KittenBookKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267CE9551DDE4F850070FF5F /* KittenBookKit.framework */; };
+		267CE9651DDE4F860070FF5F /* KittenBookKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9641DDE4F860070FF5F /* KittenBookKitTests.swift */; };
+		267CE9671DDE4F860070FF5F /* KittenBookKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 267CE9571DDE4F850070FF5F /* KittenBookKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267CE96A1DDE4F860070FF5F /* KittenBookKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267CE9551DDE4F850070FF5F /* KittenBookKit.framework */; };
+		267CE96B1DDE4F860070FF5F /* KittenBookKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267CE9551DDE4F850070FF5F /* KittenBookKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		267CE9741DDE51710070FF5F /* KittenWrangler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9731DDE51710070FF5F /* KittenWrangler.swift */; };
+		267CE9761DDE54940070FF5F /* KittenBookTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9751DDE54940070FF5F /* KittenBookTypes.swift */; };
+		267CE9781DDE54DE0070FF5F /* Kitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9771DDE54DE0070FF5F /* Kitten.swift */; };
+		267CE97B1DDE59530070FF5F /* test-kittens.json in Resources */ = {isa = PBXBuildFile; fileRef = 267CE9791DDE59450070FF5F /* test-kittens.json */; };
+		267CE97D1DDE5D5B0070FF5F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE97C1DDE5D5B0070FF5F /* Application.swift */; };
+		267CE9811DDE6BE70070FF5F /* KittenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CE9801DDE6BE70070FF5F /* KittenCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +48,46 @@
 			remoteGlobalIDString = 267CE90C1DDE499C0070FF5F;
 			remoteInfo = KittenBook;
 		};
+		267CE95F1DDE4F860070FF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267CE9051DDE499C0070FF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267CE9541DDE4F850070FF5F;
+			remoteInfo = KittenBookKit;
+		};
+		267CE9611DDE4F860070FF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267CE9051DDE499C0070FF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267CE90C1DDE499C0070FF5F;
+			remoteInfo = KittenBook;
+		};
+		267CE9681DDE4F860070FF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267CE9051DDE499C0070FF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267CE9541DDE4F850070FF5F;
+			remoteInfo = KittenBookKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		267CE96F1DDE4F860070FF5F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				267CE96B1DDE4F860070FF5F /* KittenBookKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		267CE90D1DDE499C0070FF5F /* KittenBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267CE9101DDE499C0070FF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		267CE9121DDE499C0070FF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		267CE9151DDE499C0070FF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267CE9171DDE499C0070FF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267CE91A1DDE499C0070FF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +95,33 @@
 		267CE9211DDE499D0070FF5F /* KittenBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267CE9251DDE499D0070FF5F /* KittenBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenBookTests.swift; sourceTree = "<group>"; };
 		267CE9271DDE499D0070FF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267CE9311DDE4A260070FF5F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		267CE9331DDE4A390070FF5F /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		267CE9351DDE4A450070FF5F /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		267CE9371DDE4A510070FF5F /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		267CE9391DDE4A5D0070FF5F /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		267CE93B1DDE4A680070FF5F /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		267CE93D1DDE4AF40070FF5F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		267CE93F1DDE4B420070FF5F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		267CE9421DDE4DCF0070FF5F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		267CE9431DDE4DCF0070FF5F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		267CE9441DDE4DCF0070FF5F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		267CE9451DDE4DCF0070FF5F /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		267CE9461DDE4DCF0070FF5F /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		267CE9471DDE4DCF0070FF5F /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		267CE94E1DDE4E0F0070FF5F /* kittens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kittens.json; sourceTree = "<group>"; };
+		267CE9551DDE4F850070FF5F /* KittenBookKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KittenBookKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267CE9571DDE4F850070FF5F /* KittenBookKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KittenBookKit.h; sourceTree = "<group>"; };
+		267CE9581DDE4F850070FF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267CE95D1DDE4F850070FF5F /* KittenBookKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenBookKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		267CE9641DDE4F860070FF5F /* KittenBookKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenBookKitTests.swift; sourceTree = "<group>"; };
+		267CE9661DDE4F860070FF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267CE9731DDE51710070FF5F /* KittenWrangler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenWrangler.swift; sourceTree = "<group>"; };
+		267CE9751DDE54940070FF5F /* KittenBookTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenBookTypes.swift; sourceTree = "<group>"; };
+		267CE9771DDE54DE0070FF5F /* Kitten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kitten.swift; sourceTree = "<group>"; };
+		267CE9791DDE59450070FF5F /* test-kittens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "test-kittens.json"; path = "KittenBookKitTests/test-kittens.json"; sourceTree = SOURCE_ROOT; };
+		267CE97C1DDE5D5B0070FF5F /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		267CE9801DDE6BE70070FF5F /* KittenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267CE96A1DDE4F860070FF5F /* KittenBookKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +140,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		267CE9511DDE4F850070FF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267CE95A1DDE4F850070FF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CE95E1DDE4F860070FF5F /* KittenBookKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				267CE90F1DDE499C0070FF5F /* KittenBook */,
+				267CE9561DDE4F850070FF5F /* KittenBookKit */,
 				267CE9241DDE499D0070FF5F /* KittenBookTests */,
+				267CE9631DDE4F860070FF5F /* KittenBookKitTests */,
 				267CE90E1DDE499C0070FF5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +174,8 @@
 			children = (
 				267CE90D1DDE499C0070FF5F /* KittenBook.app */,
 				267CE9211DDE499D0070FF5F /* KittenBookTests.xctest */,
+				267CE9551DDE4F850070FF5F /* KittenBookKit.framework */,
+				267CE95D1DDE4F850070FF5F /* KittenBookKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,8 +183,11 @@
 		267CE90F1DDE499C0070FF5F /* KittenBook */ = {
 			isa = PBXGroup;
 			children = (
+				267CE9411DDE4DCF0070FF5F /* Kittens */,
+				267CE97F1DDE6BC40070FF5F /* Views */,
+				267CE9301DDE4A120070FF5F /* View Controllers */,
+				267CE97C1DDE5D5B0070FF5F /* Application.swift */,
 				267CE9101DDE499C0070FF5F /* AppDelegate.swift */,
-				267CE9121DDE499C0070FF5F /* ViewController.swift */,
 				267CE9141DDE499C0070FF5F /* Main.storyboard */,
 				267CE9171DDE499C0070FF5F /* Assets.xcassets */,
 				267CE9191DDE499C0070FF5F /* LaunchScreen.storyboard */,
@@ -96,7 +205,77 @@
 			path = KittenBookTests;
 			sourceTree = "<group>";
 		};
+		267CE9301DDE4A120070FF5F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				267CE9311DDE4A260070FF5F /* BaseViewController.swift */,
+				267CE93F1DDE4B420070FF5F /* RootViewController.swift */,
+				267CE9331DDE4A390070FF5F /* IntroViewController.swift */,
+				267CE9351DDE4A450070FF5F /* RegistrationViewController.swift */,
+				267CE9371DDE4A510070FF5F /* LogInViewController.swift */,
+				267CE9391DDE4A5D0070FF5F /* PostViewController.swift */,
+				267CE93B1DDE4A680070FF5F /* ListingViewController.swift */,
+				267CE93D1DDE4AF40070FF5F /* DetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		267CE9411DDE4DCF0070FF5F /* Kittens */ = {
+			isa = PBXGroup;
+			children = (
+				267CE94E1DDE4E0F0070FF5F /* kittens.json */,
+				267CE9421DDE4DCF0070FF5F /* 1.jpg */,
+				267CE9431DDE4DCF0070FF5F /* 2.jpg */,
+				267CE9441DDE4DCF0070FF5F /* 3.jpg */,
+				267CE9451DDE4DCF0070FF5F /* 4.jpg */,
+				267CE9461DDE4DCF0070FF5F /* 5.jpg */,
+				267CE9471DDE4DCF0070FF5F /* 6.jpg */,
+			);
+			path = Kittens;
+			sourceTree = "<group>";
+		};
+		267CE9561DDE4F850070FF5F /* KittenBookKit */ = {
+			isa = PBXGroup;
+			children = (
+				267CE9571DDE4F850070FF5F /* KittenBookKit.h */,
+				267CE9581DDE4F850070FF5F /* Info.plist */,
+				267CE9751DDE54940070FF5F /* KittenBookTypes.swift */,
+				267CE9771DDE54DE0070FF5F /* Kitten.swift */,
+				267CE9731DDE51710070FF5F /* KittenWrangler.swift */,
+			);
+			path = KittenBookKit;
+			sourceTree = "<group>";
+		};
+		267CE9631DDE4F860070FF5F /* KittenBookKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				267CE9641DDE4F860070FF5F /* KittenBookKitTests.swift */,
+				267CE9791DDE59450070FF5F /* test-kittens.json */,
+				267CE9661DDE4F860070FF5F /* Info.plist */,
+			);
+			path = KittenBookKitTests;
+			sourceTree = "<group>";
+		};
+		267CE97F1DDE6BC40070FF5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				267CE9801DDE6BE70070FF5F /* KittenCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		267CE9521DDE4F850070FF5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CE9671DDE4F860070FF5F /* KittenBookKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		267CE90C1DDE499C0070FF5F /* KittenBook */ = {
@@ -106,10 +285,12 @@
 				267CE9091DDE499C0070FF5F /* Sources */,
 				267CE90A1DDE499C0070FF5F /* Frameworks */,
 				267CE90B1DDE499C0070FF5F /* Resources */,
+				267CE96F1DDE4F860070FF5F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				267CE9691DDE4F860070FF5F /* PBXTargetDependency */,
 			);
 			name = KittenBook;
 			productName = KittenBook;
@@ -134,6 +315,43 @@
 			productReference = 267CE9211DDE499D0070FF5F /* KittenBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		267CE9541DDE4F850070FF5F /* KittenBookKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267CE96C1DDE4F860070FF5F /* Build configuration list for PBXNativeTarget "KittenBookKit" */;
+			buildPhases = (
+				267CE9501DDE4F850070FF5F /* Sources */,
+				267CE9511DDE4F850070FF5F /* Frameworks */,
+				267CE9521DDE4F850070FF5F /* Headers */,
+				267CE9531DDE4F850070FF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenBookKit;
+			productName = KittenBookKit;
+			productReference = 267CE9551DDE4F850070FF5F /* KittenBookKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		267CE95C1DDE4F850070FF5F /* KittenBookKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267CE9701DDE4F860070FF5F /* Build configuration list for PBXNativeTarget "KittenBookKitTests" */;
+			buildPhases = (
+				267CE9591DDE4F850070FF5F /* Sources */,
+				267CE95A1DDE4F850070FF5F /* Frameworks */,
+				267CE95B1DDE4F850070FF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267CE9601DDE4F860070FF5F /* PBXTargetDependency */,
+				267CE9621DDE4F860070FF5F /* PBXTargetDependency */,
+			);
+			name = KittenBookKitTests;
+			productName = KittenBookKitTests;
+			productReference = 267CE95D1DDE4F850070FF5F /* KittenBookKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +368,18 @@
 						ProvisioningStyle = Automatic;
 					};
 					267CE9201DDE499D0070FF5F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M3FCT79SM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 267CE90C1DDE499C0070FF5F;
+					};
+					267CE9541DDE4F850070FF5F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M3FCT79SM9;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					267CE95C1DDE4F850070FF5F = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = M3FCT79SM9;
 						ProvisioningStyle = Automatic;
@@ -172,6 +402,8 @@
 			targets = (
 				267CE90C1DDE499C0070FF5F /* KittenBook */,
 				267CE9201DDE499D0070FF5F /* KittenBookTests */,
+				267CE9541DDE4F850070FF5F /* KittenBookKit */,
+				267CE95C1DDE4F850070FF5F /* KittenBookKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,8 +414,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				267CE91B1DDE499C0070FF5F /* LaunchScreen.storyboard in Resources */,
+				267CE9491DDE4DCF0070FF5F /* 2.jpg in Resources */,
 				267CE9181DDE499C0070FF5F /* Assets.xcassets in Resources */,
 				267CE9161DDE499C0070FF5F /* Main.storyboard in Resources */,
+				267CE9481DDE4DCF0070FF5F /* 1.jpg in Resources */,
+				267CE94C1DDE4DCF0070FF5F /* 5.jpg in Resources */,
+				267CE94F1DDE4E0F0070FF5F /* kittens.json in Resources */,
+				267CE94A1DDE4DCF0070FF5F /* 3.jpg in Resources */,
+				267CE94D1DDE4DCF0070FF5F /* 6.jpg in Resources */,
+				267CE94B1DDE4DCF0070FF5F /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +433,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		267CE9531DDE4F850070FF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267CE95B1DDE4F850070FF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CE97B1DDE59530070FF5F /* test-kittens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,8 +455,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267CE9131DDE499C0070FF5F /* ViewController.swift in Sources */,
+				267CE97D1DDE5D5B0070FF5F /* Application.swift in Sources */,
+				267CE93A1DDE4A5D0070FF5F /* PostViewController.swift in Sources */,
+				267CE9341DDE4A390070FF5F /* IntroViewController.swift in Sources */,
+				267CE9401DDE4B430070FF5F /* RootViewController.swift in Sources */,
+				267CE9811DDE6BE70070FF5F /* KittenCell.swift in Sources */,
 				267CE9111DDE499C0070FF5F /* AppDelegate.swift in Sources */,
+				267CE9361DDE4A450070FF5F /* RegistrationViewController.swift in Sources */,
+				267CE93C1DDE4A680070FF5F /* ListingViewController.swift in Sources */,
+				267CE9381DDE4A510070FF5F /* LogInViewController.swift in Sources */,
+				267CE9321DDE4A260070FF5F /* BaseViewController.swift in Sources */,
+				267CE93E1DDE4AF40070FF5F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +477,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		267CE9501DDE4F850070FF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CE9741DDE51710070FF5F /* KittenWrangler.swift in Sources */,
+				267CE9761DDE54940070FF5F /* KittenBookTypes.swift in Sources */,
+				267CE9781DDE54DE0070FF5F /* Kitten.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267CE9591DDE4F850070FF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CE9651DDE4F860070FF5F /* KittenBookKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +502,21 @@
 			isa = PBXTargetDependency;
 			target = 267CE90C1DDE499C0070FF5F /* KittenBook */;
 			targetProxy = 267CE9221DDE499D0070FF5F /* PBXContainerItemProxy */;
+		};
+		267CE9601DDE4F860070FF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267CE9541DDE4F850070FF5F /* KittenBookKit */;
+			targetProxy = 267CE95F1DDE4F860070FF5F /* PBXContainerItemProxy */;
+		};
+		267CE9621DDE4F860070FF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267CE90C1DDE499C0070FF5F /* KittenBook */;
+			targetProxy = 267CE9611DDE4F860070FF5F /* PBXContainerItemProxy */;
+		};
+		267CE9691DDE4F860070FF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267CE9541DDE4F850070FF5F /* KittenBookKit */;
+			targetProxy = 267CE9681DDE4F860070FF5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,6 +636,7 @@
 		267CE92B1DDE499D0070FF5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = KittenBook/Info.plist;
@@ -353,6 +650,7 @@
 		267CE92C1DDE499D0070FF5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = KittenBook/Info.plist;
@@ -393,6 +691,81 @@
 			};
 			name = Release;
 		};
+		267CE96D1DDE4F860070FF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KittenBookKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.KittenBookKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		267CE96E1DDE4F860070FF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KittenBookKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.KittenBookKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		267CE9711DDE4F860070FF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = KittenBookKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.KittenBookKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenBook.app/KittenBook";
+			};
+			name = Debug;
+		};
+		267CE9721DDE4F860070FF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = KittenBookKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.KittenBookKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenBook.app/KittenBook";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +785,7 @@
 				267CE92C1DDE499D0070FF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267CE92D1DDE499D0070FF5F /* Build configuration list for PBXNativeTarget "KittenBookTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +794,25 @@
 				267CE92F1DDE499D0070FF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267CE96C1DDE4F860070FF5F /* Build configuration list for PBXNativeTarget "KittenBookKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267CE96D1DDE4F860070FF5F /* Debug */,
+				267CE96E1DDE4F860070FF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267CE9701DDE4F860070FF5F /* Build configuration list for PBXNativeTarget "KittenBookKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267CE9711DDE4F860070FF5F /* Debug */,
+				267CE9721DDE4F860070FF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

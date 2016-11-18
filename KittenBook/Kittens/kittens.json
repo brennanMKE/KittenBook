@@ -1,0 +1,34 @@
+{
+    "kittens": [
+        {
+            "title": "Black & White",
+            "caption": "Purring for the weekend.",
+            "filename": "1.jpg"
+        },
+        {
+            "title": "Chill",
+            "caption": "Just sitting here minding my own cat business.",
+            "filename": "2.jpg"
+        },
+        {
+            "title": "Mischief Maker",
+            "caption": "I did not do anything. It wasn't me.",
+            "filename": "3.jpg"
+        },
+        {
+            "title": "Cat Bear",
+            "caption": "Hear my roar!",
+            "filename": "4.jpg"
+        },
+        {
+            "title": "Sad Eyes",
+            "caption": "Have you seen my friend, Teddy Bear?",
+            "filename": "5.jpg"
+        },
+        {
+            "title": "Bright Eyes",
+            "caption": "I've had my coffee and I am ready for anything!",
+            "filename": "6.jpg"
+        },
+    ]
+}
