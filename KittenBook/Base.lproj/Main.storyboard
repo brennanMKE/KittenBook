@@ -25,12 +25,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="cZ0-sy-7wW">
-                                <rect key="frame" x="177" y="323.5" width="20" height="20"/>
+                                <rect key="frame" x="177" y="190" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cZ0-sy-7wW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C3S-ls-iWE"/>
+                            <constraint firstItem="cZ0-sy-7wW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="3:5" id="C3S-ls-iWE"/>
                             <constraint firstItem="cZ0-sy-7wW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cdg-c7-hYd"/>
                         </constraints>
                     </view>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kittens!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1f-90-6Pd">
-                                <rect key="frame" x="147" y="186" width="81" height="29"/>
+                                <rect key="frame" x="147" y="252.5" width="81" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,7 +83,7 @@
                             <constraint firstItem="iup-2R-Ffk" firstAttribute="centerX" secondItem="1GP-rT-nSk" secondAttribute="centerX" id="CLP-pa-pWO"/>
                             <constraint firstItem="iup-2R-Ffk" firstAttribute="width" secondItem="Mby-2B-N3l" secondAttribute="width" id="JCo-2Z-6n5"/>
                             <constraint firstItem="iup-2R-Ffk" firstAttribute="top" secondItem="Mby-2B-N3l" secondAttribute="bottom" constant="8" id="cLf-0d-27n"/>
-                            <constraint firstItem="W1f-90-6Pd" firstAttribute="centerY" secondItem="1GP-rT-nSk" secondAttribute="centerY" multiplier="3:5" id="hT6-lg-fRV"/>
+                            <constraint firstItem="W1f-90-6Pd" firstAttribute="centerY" secondItem="1GP-rT-nSk" secondAttribute="centerY" multiplier="4:5" id="hT6-lg-fRV"/>
                             <constraint firstItem="Mby-2B-N3l" firstAttribute="centerX" secondItem="1GP-rT-nSk" secondAttribute="centerX" id="tWc-lH-Xaj"/>
                             <constraint firstItem="A8t-lI-XiI" firstAttribute="top" secondItem="iup-2R-Ffk" secondAttribute="bottom" constant="20" id="wf6-PX-ism"/>
                         </constraints>
@@ -174,16 +174,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYi-xj-gj9" userLabel="Container View">
-                                <rect key="frame" x="37.5" y="84" width="300" height="120"/>
+                                <rect key="frame" x="75" y="84" width="225" height="120"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YIt-ZL-id7">
-                                        <rect key="frame" x="20" y="20" width="260" height="30"/>
+                                        <rect key="frame" x="20" y="20" width="185" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LQE-Nx-SLh">
-                                        <rect key="frame" x="20" y="70" width="260" height="30"/>
+                                        <rect key="frame" x="20" y="70" width="185" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -211,7 +211,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="GYi-xj-gj9" firstAttribute="top" secondItem="TCb-ic-0k0" secondAttribute="bottom" constant="20" id="1We-UB-2sS"/>
-                            <constraint firstItem="GYi-xj-gj9" firstAttribute="width" secondItem="ggf-l6-Mw2" secondAttribute="width" multiplier="4:5" id="BI6-gn-PUm"/>
+                            <constraint firstItem="GYi-xj-gj9" firstAttribute="width" secondItem="ggf-l6-Mw2" secondAttribute="width" multiplier="3:5" id="BI6-gn-PUm"/>
                             <constraint firstItem="dqz-Mu-TbM" firstAttribute="centerX" secondItem="ggf-l6-Mw2" secondAttribute="centerX" id="Sxc-GI-R8o"/>
                             <constraint firstItem="dqz-Mu-TbM" firstAttribute="top" secondItem="GYi-xj-gj9" secondAttribute="bottom" constant="8" id="f2O-Qc-0ER"/>
                             <constraint firstItem="GYi-xj-gj9" firstAttribute="centerX" secondItem="ggf-l6-Mw2" secondAttribute="centerX" id="xX7-14-X7C"/>
@@ -447,6 +447,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vF1-1A-flz"/>
+        <segue reference="fcf-HP-qOc"/>
     </inferredMetricsTieBreakers>
 </document>

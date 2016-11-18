@@ -401,8 +401,8 @@
 			projectRoot = "";
 			targets = (
 				267CE90C1DDE499C0070FF5F /* KittenBook */,
-				267CE9201DDE499D0070FF5F /* KittenBookTests */,
 				267CE9541DDE4F850070FF5F /* KittenBookKit */,
+				267CE9201DDE499D0070FF5F /* KittenBookTests */,
 				267CE95C1DDE4F850070FF5F /* KittenBookKitTests */,
 			);
 		};
